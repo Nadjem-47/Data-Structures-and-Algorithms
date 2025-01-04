@@ -84,7 +84,7 @@ const hasPathDfsRecursion = (graph, src, dst) => {
   return false
 }
 
-console.log(hasPathDfsRecursion(graph.adjacencyList, "A", "F"))
+hasPathDfsRecursion(graph.adjacencyList, "A", "F")
 
 const hasPathBfs = (graph, src, dst) => {
   const queue = [src]
