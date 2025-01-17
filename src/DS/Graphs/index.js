@@ -29,8 +29,9 @@ graph.addVertex("K")
 graph.addEdge("A", "C")
 graph.addEdge("A", "B")
 graph.addEdge("B", "D")
+graph.addEdge("B", "C")
+graph.addEdge("C", "B")
 graph.addEdge("C", "E")
+graph.addEdge("C", "A")
 graph.addEdge("E", "K")
 
-
-console.log(graph.adjacencyList)
