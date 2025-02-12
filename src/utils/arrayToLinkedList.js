@@ -1,9 +1,4 @@
-export class ListNode {
-  constructor(val = 0, next = null) {
-    this.val = val
-    this.next = next
-  }
-}
+import { ListNode } from "../classes"
 
 export function arrayToLinkedList(arr) {
   let node = new ListNode(0)
