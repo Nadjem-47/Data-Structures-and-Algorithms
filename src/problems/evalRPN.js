@@ -8,8 +8,6 @@ const evalRPN = function (tokens) {
     for (let token of tokens) {
         const isValidNumber = isNumber(token)
 
-        console.log(stack)
-
         if (isValidNumber) {
             stack.push(+token)
         } else {
