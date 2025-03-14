@@ -1,8 +1,17 @@
+
 /**
- * @param {number[]} nums
- * @param {number} k
- * @return {number[]}
+ * Finds the k most frequent elements in the given array.
+ *
+ * @param {number[]} nums - An array of integers.
+ * @param {number} k - The number of top frequent elements to return.
+ * @return {number[]} - An array containing the k most frequent elements.
+ *
+ * This function uses a frequency map to count occurrences of each number,
+ * then utilizes bucket sort to gather numbers by frequency, and finally
+ * extracts the top k frequent elements.
  */
+
+
 const topKFrequent = function(nums, k) {
     const frequentNums = new Map();
     let result = [];
@@ -26,3 +35,6 @@ const topKFrequent = function(nums, k) {
 
     return result.slice(0, k);
 };
+
+    
+
