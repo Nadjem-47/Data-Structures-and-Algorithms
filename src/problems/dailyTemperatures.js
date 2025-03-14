@@ -1,6 +1,6 @@
 // todo revisite
 const dailyTemperatures = function(temperatures) {
-    const stack = []
+   const stack = []
    const result = Array(temperatures.length).fill(0);
 
    for (let i = 0; i < temperatures.length; i++) {
