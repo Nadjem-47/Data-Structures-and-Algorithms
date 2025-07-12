@@ -1,1 +1,1 @@
-git branch -m "KthLargest" ; git add . ; git commit -m "KthLargest" ; git push origin KthLargest   
+git branch -m "lastStoneWeight" ; git add . ; git commit -m "lastStoneWeight" ; git push origin lastStoneWeight   
