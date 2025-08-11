@@ -1,1 +1,1 @@
-git branch -m "leastInterval" ; git add . ; git commit -m "leastInterval" ; git push origin leastInterval   
+git branch -m "totalFruit" ; git add . ; git commit -m "totalFruit" ; git push origin totalFruit   
