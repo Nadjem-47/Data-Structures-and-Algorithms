@@ -1,1 +1,1 @@
-git branch -m "totalFruit" ; git add . ; git commit -m "totalFruit" ; git push origin totalFruit   
+git branch -m "wordPattern" ; git add . ; git commit -m "wordPattern" ; git push origin wordPattern   
