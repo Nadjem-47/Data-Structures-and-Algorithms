@@ -1,1 +1,1 @@
-git branch -m "wordPattern" ; git add . ; git commit -m "wordPattern" ; git push origin wordPattern   
+git branch -m "majorityElement" ; git add . ; git commit -m "majorityElement" ; git push origin majorityElement   
