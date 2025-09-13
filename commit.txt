@@ -1,1 +1,1 @@
-git branch -m "combinationSum" ; git add . ; git commit -m "combinationSum" ; git push origin combinationSum   
+git branch -m "combinationSum2" ; git add . ; git commit -m "combinationSum2" ; git push origin combinationSum2   
